@@ -2,4 +2,12 @@
 export default {
     defaultLocale: "en",
     locales: ["en", "fr"],
+    routes: {
+        fr: {
+          about: "a-propos",
+        },
+      },
+      i18nextServer: {
+        debug: true,
+      },
 };
